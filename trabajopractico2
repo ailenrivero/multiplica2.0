@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta name="author" content="Ailen Beatriz Rivero Villada">
+   
+    <title>ailen Beatriz Rivero Villada</title>
+</head>
+
+<body>
+
+    <h1>ailen Beatriz Rivero Villada - Estudiante de Bs As multiplica 2.0</h1>
+
+    <h2>Complete el siguiente formulario</h2>
+    <form action="login.php" method="post" target="_blank">
+
+        <label for="documento">Documento: </label>
+        <select name="documento" id="documento" size="tamaño">
+            <option value="Dni">DNI</option>
+            <option value="Cedula">Cedula</option>
+            <option value="DU">Documento Unico</option>
+            <option value="LC">Libreta Civica</option>
+        </select>
+
+        <input type="text" name="documento" id="documento" size="tamaño" placeholder="Escribir aqui...">
+
+        <br>
+        <br>
+
+        <label for="genero"></label>
+        <input type="radio" name="genero" id="genero" value="Hombre"> Hombre
+        <input type="radio" name="genero" id="genero" value="Mujer"> Mujer
+
+        <br>
+        <br>
+
+        <label for="Apellido">Apellido:</label>
+        <input type="text" name="Apellido" id="Apellido" size="tamaño" placeholder="Apellido">
+        <label for="Apellido">Nombre:</label>
+        <input type="text" name="Nombre" id="Nombre" size="tamaño" placeholder="Nombre">
+
+        <br>
+        <br>
+
+        <label for="Fecha">Fecha de nacimiento: </label>
+        <input type="date" id="Fecha" name="Fecha" max="2023-12-31">
+
+        <br>
+        <br>
+
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" name="domicilio" placeholder="Escribe tu domicilio">
+        <label>Codigo Postal:</label>
+        <input type="text" id="domicilio" name="domicilio" placeholder="Escribe el codigo Postal">
+
+        <br>
+        <br>
+
+        <label for="Pais">Pais</label>
+        <select id="Pais" name="Pais">
+            <option value="Elige un pais">Elige un pais</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Francia">Francia</option>
+            <option value="España">España</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Italia">Italia</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Irlanda">Irlanda</option>
+            <option value="Canada">Canada</option>
+        </select>
+
+        <label for="Capital">Capital</label>
+        <select id="Capital" name="Capital">
+            <option value="Elige una Capital">Elige una capital</option>
+            <option value="Berlin">Berlin</option>
+            <option value="Buenos Aires">Buenos Aires</option>
+            <option value="Paris">Paris</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Caracas">Caracas</option>
+            <option value="Roma">Roma</option>
+            <option value="Montevideo">Montevideo</option>
+            <option value="Dublin">Dublin</option>
+            <option value="Toronto">Toronto</option>
+        </select>
+
+        <br>
+        <br>
+
+        <div class="emailBox">
+            <label for="emailAddress">Tu dirección de correo electrónico</label><br />
+            <input
+              id="emailAddress"
+              type="email"
+              size="64"
+              maxlength="64"
+              required
+              placeholder="username@beststartupever.com"
+              pattern=".+@beststartupever\.com"
+              title="Proporcione solo una dirección de correo electrónico corporativa de Best Startup Ever"
+            />
+          </div>
+        <br>
+        <br>
+
+        <label for="telefono">Numero de Telefono</label>
+        <input type="text" id="telefono" name="telefono" size="tamaño" placeholder="Numero de telefono">
+
+        <br>
+        <br>
+
+        <label for="presentacion">Observaciones</label>
+
+        <br>
+
+        <textarea type="file" id="presentacion" size="tamaño" name="presentacion" placeholder="Escribe aqui..."
+        ></textarea>
+
+        <br>
+
+        <input type="reset" value="Resetear">
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
